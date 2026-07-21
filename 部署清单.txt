@@ -1,0 +1,6 @@
+1. 上传本目录全部文件到GitHub仓库根目录。
+2. 添加Actions Secret：TUSHARE_TOKEN。
+3. 手动运行“回填历史A股日行情”，日期从2026-01-01到最近交易日。
+4. Settings → Pages → Deploy from a branch → 默认分支 /root。
+5. 使用Pages网址打开index.html。
+6. 以后工作日18:35自动更新；失败时在Actions查看日志。
